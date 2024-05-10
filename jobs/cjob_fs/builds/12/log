@@ -1,0 +1,20 @@
+Started by user [8mha:////4PrOpEw/y17WeFukxYrFE/XaHmv2wlWwjzrxZvKoadMXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZh/dLi1CL9rNS87My84tzE4pLUIgBzpRMgyAAAAA==[0mPruthvika Pradeep
+Running as SYSTEM
+Building remotely on [8mha:////4IuG9k62fFKwPAWAQuCIkftB1sBzLG1idHVkmg9lvs/vAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/cjob_fs
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ubuntu/jenkins/workspace/cjob_fs/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Pruthvika1822/C_Project.git # timeout=10
+Fetching upstream changes from https://github.com/Pruthvika1822/C_Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Pruthvika1822/C_Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision be2257821f82f08577e7627dca0e057084cd42ca (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f be2257821f82f08577e7627dca0e057084cd42ca # timeout=10
+Commit message: "Update testfile"
+ > git rev-list --no-walk be2257821f82f08577e7627dca0e057084cd42ca # timeout=10
+Triggering a new build of [8mha:////4FPVGPGgNjLs6DRVf627GyfCEv+BlisgCOwKlD3HwONDAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3ijNScHCAjPq1YHwBqZzUVxgAAAA==[0mshelljob_fs
+Finished: SUCCESS

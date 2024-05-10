@@ -1,0 +1,46 @@
+Started by user [8mha:////4PrOpEw/y17WeFukxYrFE/XaHmv2wlWwjzrxZvKoadMXAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZh/dLi1CL9rNS87My84tzE4pLUIgBzpRMgyAAAAA==[0mPruthvika Pradeep
+Running as SYSTEM
+Building remotely on [8mha:////4AVbUgag/c/ky9r2ZfLypgZpX0MRcSPFT5uPugC4v4fhAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (label1) in workspace /home/ubuntu/jenkins/workspace/cjob_fs
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Pruthvika1822/C_Project.git
+ > git init /home/ubuntu/jenkins/workspace/cjob_fs # timeout=10
+Fetching upstream changes from https://github.com/Pruthvika1822/C_Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Pruthvika1822/C_Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Pruthvika1822/C_Project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision be2257821f82f08577e7627dca0e057084cd42ca (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f be2257821f82f08577e7627dca0e057084cd42ca # timeout=10
+Commit message: "Update testfile"
+ > git rev-list --no-walk be2257821f82f08577e7627dca0e057084cd42ca # timeout=10
+[cjob_fs] $ /bin/sh -xe /tmp/jenkins10204707458633400480.sh
++ cd /home/ubuntu/jenkins/workspace/cjob_fs
++ make output.exe
+gcc -c main.c
+main.c:1:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    1 | main()
+      | ^~~~
+main.c: In function ‘main’:
+main.c:3:9: warning: implicit declaration of function ‘biggest2’ [-Wimplicit-function-declaration]
+    3 |         biggest2();
+      |         ^~~~~~~~
+main.c:4:9: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+    4 |         factorial();
+      |         ^~~~~~~~~
+gcc -c big2.c
+big2.c:3:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    3 | biggest2() {
+      | ^~~~~~~~
+gcc -c fact.c
+fact.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 | factorial() {
+      | ^~~~~~~~~
+gcc -o output.exe main.o big2.o fact.o
+Triggering a new build of [8mha:////4FPVGPGgNjLs6DRVf627GyfCEv+BlisgCOwKlD3HwONDAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZB/az8JP3ijNScHCAjPq1YHwBqZzUVxgAAAA==[0mshelljob_fs
+Finished: SUCCESS

@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4Idi0WfWpATPbuGMvhAkFQWSqk66mSyD+f0Hafp0z3QrAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/az8JP1kIBGfVqwPANJvfivCAAAA[0mcjob_fs" build number [8mha:////4BAYlxq771JvbdtMc/ivNbWREbbKWpjnSD14TweMb/+hAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBj79rPwk/WQgEZ9WrG8CAFMAQYTDAAAA[0m4
+originally caused by:
+ Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/shelljob_fs
+[shelljob_fs] $ /bin/sh -xe /tmp/jenkins5843189097719926888.sh
++ /home/ubuntu/big2.sh 76 89
+89 is the Biggest
+Finished: SUCCESS
